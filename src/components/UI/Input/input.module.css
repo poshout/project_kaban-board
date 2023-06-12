@@ -1,0 +1,14 @@
+
+.Input {
+    box-sizing: content-box;
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+  
+  
+  input:focus {
+    outline: none !important;
+    border-bottom:none;
+  }

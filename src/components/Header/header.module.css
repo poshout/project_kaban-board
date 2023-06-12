@@ -1,0 +1,90 @@
+.Container{
+  background: rgba(0, 103, 163, 1);
+  display: flex;
+  justify-content: center;
+}
+.Header{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: white;
+  padding-left: 10px;
+}
+.ProfileContainer {
+  user-select: none;
+  cursor: pointer;
+  margin-right: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Profile {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 7px;
+  display: flex;
+  justify-content: center;
+}
+.ProfilePhoto {
+  width: 26px;
+  height: 34px;
+  margin-top: 5px;
+}
+.ProfileArrow {
+  width: 12px;
+  height: 8px;
+}
+.ArrowUp {
+  display: none;
+}
+.DropdownContainer{
+  background: rgba(255, 255, 255, 1);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 100%;
+  left: 17%;
+  transform: rotate(45deg);
+}
+.Dropdown {
+  padding: 0;
+  width: 135px;
+  position: absolute;
+  list-style: none;
+  top: 80%;
+  right: -40%;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+.DropdownItem {
+  font-size: 14px;
+  width: 90%;
+  margin-left: 7px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.DropdownItem:hover {
+  background: rgb(205, 205, 205);
+}
+@media (max-width: 560px){
+  .Header h2 {
+    display: none;
+  }
+  .Dropdown {
+    width: 100px;
+    right: -22%;
+  }
+}

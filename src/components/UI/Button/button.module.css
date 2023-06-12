@@ -1,0 +1,74 @@
+
+  button {
+    border-radius: 5px;
+    border: none;
+    appearance: none;
+    font-size: 18px;
+    color:#5E6C84;
+;
+    cursor: pointer;
+  }
+
+  .Change {
+    margin-top: 30px;
+    margin-left: 28px;
+    background: rgb(39, 146, 207);
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+
+  .btn.Change:hover{
+    opacity: 0.85;
+    background: #609cbf;
+  }
+
+
+  .Submit {
+
+    color: rgba(255, 255, 255, 1);
+    background: #0079BF;
+    border-radius: 5px;
+    width:102px;
+    height: 29px;
+    border: none;
+    font-size: 18px;
+   }
+  .btn.Submit:hover {
+    background: #609cbf;
+  }
+  .btn:disabled {
+    color: #a9a9a9;
+    cursor: default;
+  }
+
+  .btn:hover {
+    background: rgb(255, 255, 255);
+  }
+  
+  .btn:hover:disabled {
+    background: none;
+
+  }
+
+
+  .Dropdown {
+    width: 100%;
+    background: none;
+    border: 0;
+    font-size: 18px;
+    text-align:center;
+  }
+
+
+
+
+  @media (max-width: 560px){
+    .Change{
+      margin-bottom: 10px;
+    }
+  }
+ 

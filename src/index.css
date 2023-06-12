@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  line-height: 21px;
+  background: rgb(39, 146, 207);
+  height: 100%;
+  width: 100%;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+main {
+  background: rgb(39, 146, 207);
+  display: flex;
+  justify-content: center;
+
+}
+
+@media (max-width: 560px) {
+  body{
+    overflow-y:auto;
+  }
+}

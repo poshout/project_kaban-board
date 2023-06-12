@@ -1,0 +1,98 @@
+.TaskList {
+  margin-top: 20px;
+  width: 280px;
+  height: max-content;
+  max-height: 590px;
+  background: rgba(235, 236, 240, 1);
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+
+}
+
+.Items {
+  overflow-y:auto;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 12px 0px 12px;
+  max-height: 550px;
+}
+.Items::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 6px;
+}
+
+.Items::-webkit-scrollbar-track {
+  background: #fff;
+  scrollbar-gutter: stable both-edges;
+  border-radius: 6px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.Items::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #cbcbcb;
+  outline: 1px solid slategrey;
+}
+
+
+
+.Header {
+  margin: 12px 0px 0px 12px;
+}
+
+.Item {
+  margin-bottom: 20px;
+  padding: 7px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  transition: all 0.2s;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+
+}
+.Item:hover {
+  background: rgb(205, 205, 205);
+}
+
+  .AddTask {
+    margin: 0px 0 8px 12px;
+  }
+  
+  .DropdownContainer {
+    display: none;
+    margin: 0px 12px 12px 12px;
+    padding: 7px 0 7px 8px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    position: relative;
+  }
+
+
+  .DropdownList {
+    max-height: 300px;
+    position: absolute;
+    border-radius: 5px;
+    overflow-y: auto;
+    width: 90%;
+    top: 110%;
+    background: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding-left: 7px;
+    list-style: none;
+  }
+  .DropdownItem {
+    word-wrap: break-word;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.2s;
+
+  }
+  .DropdownItem:hover {
+    background: rgb(205, 205, 205);
+  }
